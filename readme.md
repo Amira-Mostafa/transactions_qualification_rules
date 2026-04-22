@@ -1,7 +1,7 @@
 # From Sequential to Parallel: The 10M Row Performance Journey
 
 
-**Table of Contents**
+## Table of Contents
 
 - [Project Overview](https://github.com/otifi3/scala_rule_engine/blob/main/README.md#project-overview)
 - [Features](https://github.com/otifi3/scala_rule_engine/blob/main/README.md#features)
@@ -40,7 +40,7 @@ This Scala project implements a **rule engine** that processes retail store orde
 
 ---
 
-## From 30 Hours to 5.7 Minutes 
+## From 30 to 5.7 Minutes 
 
 **Stage 1 - Initial State**
 - I was able to process **1,000 rows** from `TRX1000.csv` perfectly fine. The sequential approach was simple, and executed in under a second.
