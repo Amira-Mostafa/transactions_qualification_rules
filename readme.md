@@ -62,6 +62,7 @@ Using(Source.fromFile(fileName))(_.getLines().toList)
 	- Then Inserted row by row to MYSQL 
 
  What I changed was :
+ 
  **Stage 2 - Streaming Line by Line**
 ```scala
 Using(Source.fromFile("TRX10M.csv")) { source =>
@@ -81,6 +82,7 @@ lines.grouped(BATCH_SIZE).foreach { batch => val processed = batch.map(line => p
 ```
 - Instead of 10M individual DB insertions, there are now `10M / 80K = 125` batch inserts -> processing 80K row at a time
 - but that meant using 1 core of all my device capabilities and it took 30 min
+
 
 **Stage 4 — Parallel Collections + ForkJoinPool (5.7 Minutes)**
 
@@ -128,6 +130,7 @@ rewriteBatchedStatements=true
 ```
 - Even with `executeBatch()`, MySQL by default still sends each statement in the batch as a separate network packet for ex: `INSERT INTO order_result VALUES (...)`
 - this approach will utilize the statements more and will rewrite as batch into one sql statement `INSERT INTO order_result VALUES (...), (...), (...), ...`
+
 ## Technical Details
 
 - **Functional Programming**:  
