@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root:test [file:///D:/ITI/Fs%20with%20Scala/transactions_qualification_rules/]" external.linked.project.path="D:\ITI\Fs with Scala\transactions_qualification_rules" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="SBT" external.system.module.type="sbtSourceSet" type="JAVA_MODULE" version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="transactions_qualification_rules.test" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_25">
+    <output-test url="file://$MODULE_DIR$/../../../target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../src/test" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-2.13/resource_managed/test" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-2.13/src_managed/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-2.13.12" level="project" />
+    <orderEntry type="module" module-name="transactions_qualification_rules.main" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.scala-logging:scala-logging_2.13:3.9.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.4.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe:config:1.4.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-core_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-featurespec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-flatspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-freespec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-funsuite_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-funspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-propspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-refspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-wordspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-diagrams_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-matchers-core_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-shouldmatchers_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-mustmatchers_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.4.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.mysql:mysql-connector-j:8.0.33:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-compatible:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalactic:scalactic_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.13:2.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.protobuf:protobuf-java:3.21.9:jar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="transactions_qualification_rules.main" />
+</module>

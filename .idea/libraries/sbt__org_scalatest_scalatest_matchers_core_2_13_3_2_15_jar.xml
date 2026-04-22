@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalatest:scalatest-matchers-core_2.13:3.2.15:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.scalatest" artifactId="scalatest-matchers-core_2.13" version="3.2.15" baseVersion="3.2.15" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.15/scalatest-matchers-core_2.13-3.2.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.2.15/scalatest-matchers-core_2.13-3.2.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

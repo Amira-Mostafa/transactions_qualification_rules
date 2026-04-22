@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="transactions_qualification_rules,transactions_qualification_rules.main,transactions_qualification_rules.test,transactions_qualification_rules_8075,transactions_qualification_rules_8075.main,transactions_qualification_rules_8075.test" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.main.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.test.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.transactions_qualification_rules-build.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions_qualification_rules/transactions_qualification_rules.transactions_qualification_rules-build.iml" />
+    </modules>
+  </component>
+</project>
