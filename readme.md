@@ -74,6 +74,7 @@ Using(Source.fromFile("TRX10M.csv")) { source =>
 - Memory problem solved — only one row exists in memory at any moment. but It took a whole **45 min** to finish the file
 - It read line by line and only one row in memory at a time
 - Only **1 CPU core** utilization, other cores sat idle
+
  **Stage 3 — Batching (30 Minutes)**
 ```scala
 lines.grouped(BATCH_SIZE).foreach { batch => val processed = batch.map(line => processOrder(to_order(line))) 
