@@ -13,13 +13,16 @@ object logger {
    * - Logging level set to INFO (logs INFO and above)
    *
    */
+
   val logger: Logger = {
     val log = Logger.getLogger("OrderProcessingLogger")
 
-    // Create logs directory
+    // Create logs directory, ensures the logs directory exists before trying to open the log file.
     val logDir = new java.io.File("logs")
     if (!logDir.exists()) logDir.mkdirs()
 
+    // Open the log file in append mode (second argument = true).
+    // This means repeated runs accumulate in one file
     val logPath = "logs/rule_engine.log"
     val fileHandler = new FileHandler(logPath, true)
     fileHandler.setFormatter(new SimpleFormatter())

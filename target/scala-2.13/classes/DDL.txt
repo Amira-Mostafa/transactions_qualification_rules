@@ -1,0 +1,14 @@
+CREATE TABLE order_result (
+    id SERIAL PRIMARY KEY,
+    timestamp DATETIME(3),
+    product_name VARCHAR(100),
+    expiry_date DATE,
+    quantity INT,
+    unit_price DECIMAL(10,2),
+    channel VARCHAR(50),
+    payment_method VARCHAR(50),
+    total_before DECIMAL(12,2),
+    discount DECIMAL(5,4), -- percentage (0.05 = 5%)
+    total_after DECIMAL(12,2),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

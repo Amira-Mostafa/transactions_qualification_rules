@@ -9,7 +9,8 @@ lazy val root = (project in file("."))
       "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
       "ch.qos.logback" % "logback-classic" % "1.4.7",
       "mysql" % "mysql-connector-java" % "8.0.33",
-      "com.typesafe" % "config" % "1.4.2"
+      "com.typesafe" % "config" % "1.4.2",
+      "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4"
     )
   )
 
